@@ -5,6 +5,15 @@
   --white: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
