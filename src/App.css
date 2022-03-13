@@ -1,9 +1,13 @@
+/* Declaring colors */
+
 * {
   --dark: #1a1a40;
   --medium: #270082;
   --medium-medium: #7a0bc0;
   --white: #fff;
 }
+
+/* Removing text decoration from links */
 
 a {
   text-decoration: none;
@@ -36,6 +40,8 @@ a:visited {
   border: 0.2rem solid var(--dark);
 }
 
+/* Body and Margin */
+
 body {
   background-color: var(--dark);
   color: var(--white);
@@ -44,6 +50,8 @@ body {
 .App {
   margin: 3.125rem;
 }
+
+/* Header */
 
 .header {
   display: flex;
@@ -95,6 +103,8 @@ body {
 span {
   color: var(--medium-medium);
 }
+
+/* Main */
 
 .main {
   display: flex;
@@ -161,4 +171,9 @@ button {
 img {
   width: 550px;
   margin-top: 3rem;
+  transition: all 0.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }

@@ -1,15 +1,9 @@
 import logo from '../assets/image.svg';
 
-import Input from './Input';
-import Newsletter from './Newsletter';
-
-function Main() {
+function Main(props) {
   return (
     <main className="main">
-      <div>
-        <Newsletter />
-        <Input />
-      </div>
+      <div>{props.children}</div>
 
       <div>
         <img src={logo} alt="girl"></img>
