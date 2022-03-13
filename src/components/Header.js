@@ -1,9 +1,9 @@
 function Header() {
   return (
     <header className="header">
-      <p>
-        <a href="https://github.com/Reflixzinhu">Logo Empresa</a>
-      </p>
+      <a href="https://github.com/Reflixzinhu">
+        <p>Logo Empresa</p>
+      </a>
 
       <ul className="nav">
         <li>
